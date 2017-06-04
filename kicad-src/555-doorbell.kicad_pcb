@@ -3,7 +3,7 @@
   (general
     (links 28)
     (no_connects 2)
-    (area 119.924999 76.8 176.35 126.575001)
+    (area 119.924999 81.424999 165.075001 126.575001)
     (thickness 1.6)
     (drawings 8)
     (tracks 69)
@@ -142,6 +142,11 @@
       (net 2 GND))
     (pad 1 thru_hole rect (at -5.08 0 90) (size 2.49936 2.49936) (drill 0.381) (layers *.Cu *.Mask)
       (net 7 "Net-(C5-Pad2)"))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/Buzzer.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Capacitors_ThroughHole:C_Disc_D7.5mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 592C679C) (tstamp 5929EB1C)
@@ -174,9 +179,9 @@
       (net 1 VCC))
     (pad 2 thru_hole circle (at 5 0 180) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model "C:/Program Files/KiCad/share/kicad/modules/packages3d/Capacitors_ThroughHole.3dshapes/C_Disc_D7.5_P5.wrl"
+      (at (xyz 0.1 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -325,10 +330,10 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 thru_hole circle (at 2.5 0 180) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Capacitors_ThroughHole.3dshapes/C_Radial_D5_L6_P2.5.wrl
+      (at (xyz 0.052 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -362,9 +367,9 @@
       (net 4 "Net-(C3-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model "C:/Program Files/KiCad/share/kicad/modules/packages3d/Capacitors_ThroughHole.3dshapes/C_Disc_D7.5_P5.wrl"
+      (at (xyz 0.1 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -399,9 +404,9 @@
       (net 5 "Net-(C4-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model "C:/Program Files/KiCad/share/kicad/modules/packages3d/Capacitors_ThroughHole.3dshapes/C_Disc_D7.5_P5.wrl"
+      (at (xyz 0.1 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -550,10 +555,10 @@
       (net 6 "Net-(C5-Pad1)"))
     (pad 2 thru_hole circle (at 2.5 0 180) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 7 "Net-(C5-Pad2)"))
-    (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Capacitors_ThroughHole.3dshapes/C_Radial_D5_L6_P2.5.wrl
+      (at (xyz 0.052 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -590,10 +595,10 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 thru_hole circle (at 5.08 0 180) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 8 "Net-(D1-Pad2)"))
-    (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_A-405_P5.08mm_Vertical_AnodeUp.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/1n4148.wrl
+      (at (xyz 0.1 0 0.04))
+      (scale (xyz 0.28 0.28 0.28))
+      (rotate (xyz 180 0 0))
     )
   )
 
@@ -630,10 +635,10 @@
       (net 9 "Net-(D2-Pad1)"))
     (pad 2 thru_hole circle (at 5.08 0 180) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 8 "Net-(D1-Pad2)"))
-    (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_A-405_P5.08mm_Vertical_AnodeUp.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/1n4148.wrl
+      (at (xyz 0.1 0 0.04))
+      (scale (xyz 0.28 0.28 0.28))
+      (rotate (xyz 180 0 0))
     )
   )
 
@@ -668,9 +673,9 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 thru_hole circle (at 10.16 0) (size 2.286 2.286) (drill 0.381) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/res-1_4-47k.wrl
+      (at (xyz 0.2 0 0.05))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -706,9 +711,9 @@
       (net 1 VCC))
     (pad 2 thru_hole circle (at 10.16 0 90) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 9 "Net-(D2-Pad1)"))
-    (model Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/res-1_4-47k.wrl
+      (at (xyz 0.2 0 0.05))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -744,9 +749,9 @@
       (net 9 "Net-(D2-Pad1)"))
     (pad 2 thru_hole circle (at 10.16 0 270) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 10 "Net-(R3-Pad2)"))
-    (model Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/res-1_4-47k.wrl
+      (at (xyz 0.2 0 0.05))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -782,9 +787,9 @@
       (net 10 "Net-(R3-Pad2)"))
     (pad 2 thru_hole circle (at 10.16 0 270) (size 2.032 2.032) (drill 0.381) (layers *.Cu *.Mask)
       (net 4 "Net-(C3-Pad1)"))
-    (model Resistors_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/res-1_4-47k.wrl
+      (at (xyz 0.2 0 0.05))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -830,9 +835,9 @@
       (net 8 "Net-(D1-Pad2)"))
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2.54 2.54) (drill 0.381) (layers *.Cu *.Mask)
       (net 1 VCC))
-    (model Buttons_Switches_THT.3dshapes/SW_PUSH_6mm.wrl
-      (at (xyz 0.005 0 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/pushbutton-mini.wrl
+      (at (xyz 0.13 -0.08 0.01))
+      (scale (xyz 0.355 0.355 0.355))
       (rotate (xyz 0 0 0))
     )
   )
@@ -911,6 +916,11 @@
       (net 2 GND))
     (pad 2 thru_hole oval (at 2.54 0) (size 2.032 3.01) (drill 0.381) (layers *.Cu *.Mask)
       (net 1 VCC))
+    (model D:/Users/jaime/Documents/GitHub/555-doorbell/kicad-src/packages3d/2x1-male-pin-header.wrl
+      (at (xyz 0.05 -0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text 555-DoorBell (at 122.428 106.426 90) (layer B.Cu)
